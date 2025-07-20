@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bora.Application", "Bora.Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bora.Domain", "Bora.Domain\Bora.Domain.csproj", "{9C333570-E6D4-49E3-B80F-0F41222BDAE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bora.Data", "Bora.Data\Bora.Data.csproj", "{C20AA5E7-36FC-4C2F-A330-09A0704BC9F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9FDCF06C-AB7B-48E2-B274-8C3C603F67BF} = {723981EA-F0F1-4A4D-8E7D-C7CAF2CA6EAB}
 		{9C333570-E6D4-49E3-B80F-0F41222BDAE5} = {723981EA-F0F1-4A4D-8E7D-C7CAF2CA6EAB}
+		{C20AA5E7-36FC-4C2F-A330-09A0704BC9F2} = {5290C9DB-A3AD-4F22-BB2D-04BD0F91073E}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9FDCF06C-AB7B-48E2-B274-8C3C603F67BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -28,5 +31,9 @@ Global
 		{9C333570-E6D4-49E3-B80F-0F41222BDAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C333570-E6D4-49E3-B80F-0F41222BDAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C333570-E6D4-49E3-B80F-0F41222BDAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20AA5E7-36FC-4C2F-A330-09A0704BC9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20AA5E7-36FC-4C2F-A330-09A0704BC9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20AA5E7-36FC-4C2F-A330-09A0704BC9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20AA5E7-36FC-4C2F-A330-09A0704BC9F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
