@@ -4,7 +4,7 @@ namespace Bora.Domain.Entities;
 
 public class Task : IEntityId<long>
 {
-    public long Id { get; }
+    public long Id { get; set; }
     
     public string Title { get; set; }
     
@@ -30,7 +30,7 @@ public class Task : IEntityId<long>
     
     public User AssignedTo { get; set; }
     
-    public ICollection<Comment> Comments { get; set; }
+    public ICollection<Comment>? Comments { get; set; }
 }
 
 

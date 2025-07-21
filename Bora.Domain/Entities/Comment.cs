@@ -4,7 +4,7 @@ namespace Bora.Domain.Entities;
 
 public class Comment : IEntityId<long>
 {
-    public long Id { get; }
+    public long Id { get; set; }
     
     public string Text { get; set; }
     
