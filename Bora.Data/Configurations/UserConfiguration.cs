@@ -32,7 +32,7 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
                 Email = "testuser@gmail.com",
                 FirstName = "TestUserFirstName",
                 LastName = "TestUserLastName",
-                CreatedAt = DateTime.UtcNow,
+                CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc),
             }
         });
     }

@@ -24,7 +24,7 @@ public class ProjectConfiguration : IEntityTypeConfiguration<Project>
                 Id = 1,
                 Name = "Project Test 1",
                 Description = "This is a test project",
-                CreatedAt = DateTime.UtcNow,
+                CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc),
                 CreatedById = 1
             }
         });

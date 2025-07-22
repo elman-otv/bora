@@ -27,8 +27,8 @@ public class TaskConfiguration :  IEntityTypeConfiguration<Task>
             Description = "Test Task Description",
             Status = TaskStatus.InProgress,
             Priority = TaskPriority.High,
-            CreatedAt = DateTime.UtcNow,
-            DueDate = DateTime.UtcNow.AddDays(7),
+            CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc),
+            DueDate = new DateTime(2024, 1, 8, 0, 0, 0, DateTimeKind.Utc),
             ProjectId = 1L,
             CreatedById = 1L
         });

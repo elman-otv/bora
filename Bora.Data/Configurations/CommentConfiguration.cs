@@ -20,7 +20,7 @@ public class CommentConfiguration : IEntityTypeConfiguration<Comment>
             {
                 Id = 1,
                 Text = "Comment #1 from User #1 in Task #1",
-                CreatedAt = DateTime.UtcNow,
+                CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc),
                 TaskId = 1,
                 UserId = 1
             }
